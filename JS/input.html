@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<form>
+Please enter your section
+<input type="text" id="s" username="s"></input>
+<br>
+<button type="button" onclick="displaytimetable()">submit</button>
+</form>
+<script>
+function displaytimetable() {
+    const section = document.getElementById('s');
+  const section1= section.value;
+            // Display the value
+            document.getElementById('output').textContent = 'Username: ' +section1;
+        }
+    </script>
+
+</body>
+</html>

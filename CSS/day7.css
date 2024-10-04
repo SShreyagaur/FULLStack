@@ -1,0 +1,48 @@
+h1{
+    background-color: rgb(241, 216, 52);
+    text-align: center;
+    padding: 100px 50px;
+}
+.a{
+    height:100px;
+    width: 200px;
+    background-color: rgb(43, 226, 153);
+    -ms-transform: rotate(20deg);
+    transform: rotate(30deg);
+}
+.b{
+    height:100px;
+    width: 200px;
+    background-color: rgb(226, 43, 116);
+    -ms-transform: skewY(40deg);
+    transform: skewY(20deg);
+}
+.c{
+    height:100px;
+    width: 200px;
+    background-color: rgb(58, 43, 226);
+    -ms-transform: scaleY(20deg);
+    transform: scaleY(30deg);
+}
+.d{
+    height:100px;
+    width: 200px;
+    background-color: rgb(226, 122, 43);
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example{
+    from{background-color: rgb(226, 122, 43);}
+    to{background-color: deepskyblue;}
+
+}
+p::before {
+    content: "Read this -";
+    background-color: yellow;
+    color: red;
+}
+p::after {
+    content: "done";
+    background-color: rgb(187, 255, 0);
+    color: red;
+}
