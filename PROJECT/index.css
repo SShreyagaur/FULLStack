@@ -8,6 +8,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-option{
-    color: blue;
+select{
+    background-color: rgb(104, 140, 204);
+}
+.container{
+    
+
+}
+#timetableForm{
+    background-color: royalblue;
+    padding: 295px;
 }
